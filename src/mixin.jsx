@@ -1,4 +1,6 @@
 //this import will pull in the AMD module (on demand)
+//this promise-mixin-two requires rsvp@^3.0.6
+//and because 3.0.7 is already loaded we don't fetch it
 import PromiseMixin from 'promise-mixin-two';
 
 var AnotherPromiseMixin = {
